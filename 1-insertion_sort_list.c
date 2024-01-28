@@ -32,7 +32,7 @@ void swap_nodes(listint_t **head, listint_t *node1, listint_t *node2)
 
 void insertion_sort_list(listint_t **list)
 {
-listint_t *current = *list, *node = NULL, *runner = NULL;
+listint_t *current = *list, *node, *runner;
 
 if (list == NULL || *list == NULL || (*list)->next == NULL)
 return;

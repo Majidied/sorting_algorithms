@@ -3,7 +3,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pedantic -std=c99
 
-SRC = main.c print_array.c print_list.c 0-bubble_sort.c
+SRC = 1-main.c print_array.c print_list.c 1-insertion_sort_list.c
 OBJ = $(SRC:.c=.o)
 EXECUTABLE = my_program
 
